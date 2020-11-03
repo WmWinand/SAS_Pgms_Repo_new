@@ -6,7 +6,7 @@ data cars_usa;
   where origin = "USA";
 run;
 
-proc print data=cars_usa (obs=10);
+proc print data=cars_usa (obs=15);
 run; 
 
 proc sort data=cars_usa out=cars_usa_sorted;
