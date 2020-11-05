@@ -1,4 +1,4 @@
-proc print data=sashelp.cars (obs=10);
+proc print data=sashelp.cars (obs=20);
 run;
 
 data cars_usa;
